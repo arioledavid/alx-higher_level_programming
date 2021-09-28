@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys
-def safe_print_integer_err(value):
+def safe_print_integ.format(value)):
     try:
         print("{:d}".formaat(value))
         return True
