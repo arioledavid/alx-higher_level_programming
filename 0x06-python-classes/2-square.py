@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ Module 2-squares.py """
+
+
 class Square:
     """Represents a square.
     Private Instance attribute: size.
