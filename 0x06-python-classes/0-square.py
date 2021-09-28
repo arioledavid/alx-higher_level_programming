@@ -2,6 +2,6 @@
 """ Module 0-square """
 
 
-class square:
+class Square:
     """ Empty Class """
     pass
