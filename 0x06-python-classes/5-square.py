@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module 4-square """
+""" Module 5-square """
 
 
 class Square:
@@ -9,6 +9,7 @@ class Square:
         - property setter def size(self, value)
     Instantiation with optional size.
     Public instance method: def area(self).
+    Public instance method: def my_print(self).
     """
 
     def __init__(self, size=0):
@@ -32,3 +33,13 @@ class Square:
     def area(self):
         """Returns the current square area."""
         return self.__size ** 2
+
+    def my_print(self):
+        """Prints to stdout the square with the character  #"""
+        if self.__size == 0:
+            print()
+        else:
+            for i in range(0, self.__size):
+                for j in range(0, slef.__size):
+                    print("#", end="")
+                print()
