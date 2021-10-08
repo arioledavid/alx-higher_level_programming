@@ -1,5 +1,6 @@
-
-dule text_indentation
+#!/usr/bin/python3
+"""
+Module text_indentation
 Adds two new lines after a set of characters.
 """
 
