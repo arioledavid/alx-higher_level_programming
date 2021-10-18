@@ -1,10 +1,19 @@
 #!/usr/bin/python3
-'''function that returns the dictionary description with simple data structure
-'''
+"""Module 10-class_to_json.
+Returns the dictionary description with
+simple data structure (list, dictionary,
+string, integer and boolean)
+for JSON serialization of an object.
+"""
 
 
 def class_to_json(obj):
-    '''module class_to_json
-       returns builds a dictionary
-    '''
+    """Creates a dict description of obj.
+
+    Args:
+        - obj: object to serialize
+
+    Returns: dictionnary description of obj
+    """
+
     return obj.__dict__
